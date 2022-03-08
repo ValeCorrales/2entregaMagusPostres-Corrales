@@ -110,15 +110,15 @@ sirve para asentar las variables, es importante la sintaxis que comente arriba *
     background-color: var(--fondoPrimario);
 } */
 
-.formularioNovedades:focus {
+.formulario:focus {
     border: 3px solid black;
     
 }
 
-.formularioNovedades .correo:invalid {
+.formulario .correo:invalid {
     background-color: yellow;
 }
 
-.formularioNovedades .correo:valid {
+.formulario .correo:valid {
     background-color: #ffffff4d;
 }
